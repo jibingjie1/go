@@ -26,6 +26,7 @@ func (s *Server) Start() {
 	if err != nil {
 		fmt.Println(err)
 	}
+
 	//close listen socket
 	defer listener.Close()
 
